@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<WORKSPACE_OPTIONS>
+  <Version>1_0</Version>
+  <Projects>
+    <ActiveProject>tt</ActiveProject>
+    <Project>
+      <Name>tt</Name>
+      <ActiveConfiguration>Main_Configuration</ActiveConfiguration>
+      <Configurations>
+        <Configuration>
+          <Name>Main_Configuration</Name>
+          <ForceRebuild>1</ForceRebuild>
+          <AxesVerified>1</AxesVerified>
+          <CreateDAFile>0</CreateDAFile>
+          <DownloadDAFile>0</DownloadDAFile>
+          <CreateExportFile>0</CreateExportFile>
+          <MonitorTask>-1</MonitorTask>
+          <DataDump>
+            <CurrentGroupName />
+            <ApplyChanges>1</ApplyChanges>
+            <DownloadFilename />
+            <UploadFilename />
+            <OverwriteExisting>0</OverwriteExisting>
+            <ForceOldDAFormat>0</ForceOldDAFormat>
+            <OpenDocumentAfterUpload>1</OpenDocumentAfterUpload>
+          </DataDump>
+        </Configuration>
+      </Configurations>
+    </Project>
+  </Projects>
+  <Breakpoints />
+  <Bookmarks />
+  <ChildFrames>
+    <Document>
+      <ViewFrame>
+        <DocPathName>.\tt.stxp</DocPathName>
+        <WindowPlacement>MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPAAAAAAAAAAAAAAAAMDIAAAAAOGCAAAAA</WindowPlacement>
+        <ViewScrollHoriz>0</ViewScrollHoriz>
+        <ViewScrollVert>0</ViewScrollVert>
+        <IsActiveChildFrame>1</IsActiveChildFrame>
+        <Line>6</Line>
+        <Column>6</Column>
+      </ViewFrame>
+    </Document>
+  </ChildFrames>
+  <ExpandedTreenodes>
+    <Treenode>
+      <Location>tt</Location>
+    </Treenode>
+    <Treenode>
+      <Location>tt/Program</Location>
+    </Treenode>
+    <Treenode>
+      <Location>tt/Setup</Location>
+    </Treenode>
+    <Treenode>
+      <Location>tt/Oscilloscope</Location>
+    </Treenode>
+    <Treenode>
+      <Location>tt/Library</Location>
+    </Treenode>
+    <Treenode>
+      <Location>tt/System Files</Location>
+    </Treenode>
+  </ExpandedTreenodes>
+  <ExpandedTreenodesHWM>
+    <Location>tt System</Location>
+    <Location>tt System/Main_Configuration</Location>
+    <Location>tt System/Main_Configuration/Hardware</Location>
+    <Location>tt System/Main_Configuration/Hardware/Network</Location>
+  </ExpandedTreenodesHWM>
+</WORKSPACE_OPTIONS>

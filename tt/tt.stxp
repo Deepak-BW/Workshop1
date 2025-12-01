@@ -1,0 +1,79 @@
+﻿#pragma PATH(LIB, "..\lib_tt1\Main_Configuration")
+
+// ------------------------------------
+// External library routines
+// ------------------------------------
+Sub Show; Extern "lib_tt1";
+Function Increment; Extern "lib_tt1";
+Function check(name : string) : bool; Extern "lib_tt1";
+
+
+// ------------------------------------
+// Task
+// ------------------------------------
+Task t_String Autorun
+
+Var
+    fullName : String := 'DEEPAK';
+    partial  : String := '';
+    i        : Int := 0;
+    len      : Int := 5;
+    count    : Int := 0;
+
+    isDeepak : bool;
+End_Var;
+
+
+// ----------------------------
+// Call check() once
+// ----------------------------
+
+
+
+// ----------------------------
+// Main Loop
+// ----------------------------
+Loop
+    Trace('--- Loop Start ---$N');
+
+    // Call library routines
+    Show;
+    Increment();
+
+    partial := '';
+
+    FOR i := 0 TO len DO
+        partial := partial + fullName[i];
+        Trace('$N' +'Display: ' + partial + '$N');
+
+        Show;
+        Trace('$N');
+        Increment();
+        Trace('$N');
+
+        Delay(T#3s);
+        isDeepak := check(partial);
+        Trace('$N');
+		if isDeepak then
+			Trace('Name is DEEPAK$N');
+			Trace('$N');
+		else
+			Trace('Name is NOT DEEPAK$N');
+			Trace('$N');
+		end_if;
+    END_FOR;
+
+    count := count + 1;
+    Trace('$N');
+    Trace('Count = ' + IntToStr(count) + '$N');
+
+    IF count = 5 THEN
+    	Trace('$N');
+        Trace('Exiting...$N');
+        EXIT;
+    END_IF;
+
+End_Loop;
+
+
+End_Task;

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<WinSym-ProjectInformation ProductVersion="6.0.4.10575">
+	<!--** DO NOT EDIT **-->
+	<Files>
+		<File IsGroup="1">
+			<Name>System Files</Name>
+			<SystemGroup>1</SystemGroup>
+			<DocumentType>26</DocumentType>
+		</File>
+		<File IsGroup="1">
+			<Name>External Dependencies</Name>
+			<SystemGroup>1</SystemGroup>
+			<DocumentType>25</DocumentType>
+		</File>
+	</Files>
+</WinSym-ProjectInformation>

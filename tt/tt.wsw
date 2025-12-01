@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<WinSym-WorkspaceFile FileVersion="1" ProductVersion="6.0.4">
+	<!--** DO NOT EDIT **-->
+	<Projects>
+		<Project>
+			<Name>tt</Name>
+			<Location>.\tt.wsp</Location>
+		</Project>
+	</Projects>
+</WinSym-WorkspaceFile>

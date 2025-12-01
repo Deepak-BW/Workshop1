@@ -1,0 +1,40 @@
+﻿
+
+Function Increment()
+    Trace('hi');
+End_Function
+
+Function check(name : string) : bool
+Var
+End_Var
+
+    // Convert both strings to same case to avoid mismatch
+    if name = 'DEEPAK' then
+        check := true;
+    else
+        check := false;
+    end_if;
+
+End_Function
+
+Library lib_tt1;
+
+// -----------------------------
+// Library variables
+// -----------------------------
+Var
+    n : int := 1;
+End_Var
+
+
+
+Sub Show
+    Trace('Current n = ' + IntToStr(n));
+End_Sub
+
+// -----------------------------
+// Export section
+// -----------------------------
+Export Show,Increment,check;
+
+End_Library;

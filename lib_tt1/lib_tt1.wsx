@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<WORKSPACE_OPTIONS>
+  <Version>1_0</Version>
+  <Projects>
+    <ActiveProject>lib_tt1</ActiveProject>
+    <Project>
+      <Name>lib_tt1</Name>
+      <ActiveConfiguration>Main_Configuration</ActiveConfiguration>
+      <Configurations>
+        <Configuration>
+          <Name>Main_Configuration</Name>
+          <ForceRebuild>0</ForceRebuild>
+          <AxesVerified>1</AxesVerified>
+          <CreateDAFile>0</CreateDAFile>
+          <DownloadDAFile>0</DownloadDAFile>
+          <CreateExportFile>0</CreateExportFile>
+          <MonitorTask>0</MonitorTask>
+          <DataDump>
+            <CurrentGroupName />
+            <ApplyChanges>1</ApplyChanges>
+            <DownloadFilename />
+            <UploadFilename />
+            <OverwriteExisting>0</OverwriteExisting>
+            <ForceOldDAFormat>0</ForceOldDAFormat>
+            <OpenDocumentAfterUpload>1</OpenDocumentAfterUpload>
+          </DataDump>
+        </Configuration>
+      </Configurations>
+    </Project>
+  </Projects>
+  <Breakpoints>
+    <Breakpoint>
+      <Index>0</Index>
+      <Filename>.\lib_tt1.stxp</Filename>
+      <Line>-1</Line>
+      <Enabled>1</Enabled>
+    </Breakpoint>
+  </Breakpoints>
+  <Bookmarks />
+  <ChildFrames>
+    <Document>
+      <ViewFrame>
+        <DocPathName>.\lib_tt1.stxp</DocPathName>
+        <WindowPlacement>MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPAAAAAAAAAAAAAAAAMDIAAAAALADAAAAA</WindowPlacement>
+        <ViewScrollHoriz>0</ViewScrollHoriz>
+        <ViewScrollVert>0</ViewScrollVert>
+        <IsActiveChildFrame>1</IsActiveChildFrame>
+        <Line>15</Line>
+        <Column>15</Column>
+      </ViewFrame>
+    </Document>
+    <Document>
+      <ViewFrame>
+        <DocPathName>HWM:lib_tt1 System\Main_Configuration\Hardware\Network\JetSTX-VM</DocPathName>
+        <WindowPlacement>MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPAAAAAAAAAAAAAAAAMDIAAAAALADAAAAA</WindowPlacement>
+        <ViewScrollHoriz>0</ViewScrollHoriz>
+        <ViewScrollVert>0</ViewScrollVert>
+        <Project>lib_tt1</Project>
+        <Config>Main_Configuration</Config>
+        <MDIWindowID>CPU</MDIWindowID>
+        <AxisKey />
+        <Setup>0</Setup>
+        <ModuleID>C55</ModuleID>
+        <HwNodeIndex>0</HwNodeIndex>
+        <BusNodeID />
+        <IsPubSubModule>0</IsPubSubModule>
+        <SplitterPos>209</SplitterPos>
+      </ViewFrame>
+    </Document>
+  </ChildFrames>
+  <ExpandedTreenodes>
+    <Treenode>
+      <Location>lib_tt1</Location>
+    </Treenode>
+    <Treenode>
+      <Location>lib_tt1/Program</Location>
+    </Treenode>
+    <Treenode>
+      <Location>lib_tt1/System Files</Location>
+    </Treenode>
+  </ExpandedTreenodes>
+  <ExpandedTreenodesHWM>
+    <Location>lib_tt1 System</Location>
+    <Location>lib_tt1 System/Main_Configuration</Location>
+    <Location>lib_tt1 System/Main_Configuration/Hardware</Location>
+    <Location>lib_tt1 System/Main_Configuration/Hardware/Network</Location>
+  </ExpandedTreenodesHWM>
+</WORKSPACE_OPTIONS>
